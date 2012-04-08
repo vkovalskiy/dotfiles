@@ -1,5 +1,15 @@
 set noswapfile
 
+set guifont=Andale\ Mono:h16
+set ruler
+set textwidth=80
+set colorcolumn=80
+
+autocmd vimenter * NERDTree
+
+set guioptions=egmrt
+set cpoptions+=$
+
 " ----------------------------------------------------------------------------
 "  Text Formatting
 " ----------------------------------------------------------------------------
@@ -14,7 +24,7 @@ set tabstop=4
 set expandtab              " expand tabs to spaces
 set nosmarttab             " fuck tabs
 set formatoptions+=n       " support for numbered/bullet lists
-"set textwidth=80           " wrap at 80 chars by default
+set textwidth=80           " wrap at 80 chars by default
 set virtualedit=block      " allow virtual edit in visual block ..
 
 " ----------------------------------------------------------------------------
@@ -44,6 +54,15 @@ vnoremap <Up> gk
 inoremap <Down> <C-o>gj
 inoremap <Up> <C-o>gk
 
+" line blocks movements up and down in all modes
+nnoremap <C-j> :m+<CR>==
+nnoremap <C-k> :m-2<CR>==
+inoremap <C-j> <Esc>:m+<CR>==gi
+inoremap <C-k> <Esc>:m-2<CR>==gi
+vnoremap <C-j> :m'>+<CR>gv=gv
+vnoremap <C-k> :m-2<CR>gv=gv
+
+nnoremap <Tab> <C-W>w
 " ----------------------------------------------------------------------------
 "  UI
 " ----------------------------------------------------------------------------
@@ -71,7 +90,7 @@ set mat=5                  " duration to show matching brace (1/10 sec)
 set incsearch              " do incremental searching
 set laststatus=2           " always show the status line
 set ignorecase             " ignore case when searching
-set nohlsearch             " don't highlight searches
+"set nohlsearch             " don't highlight searches
 set visualbell             " shut the fuck up
 
 
