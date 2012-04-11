@@ -1,0 +1,10 @@
+-  <minus>		[count] lines upward, on the first non-blank
+			character |linewise|.
+
+_  <underscore>		[count] - 1 lines downward, on the first non-blank
+			character |linewise|.
+
++		or					*+*
+CTRL-M		or					*CTRL-M* *<CR>*
+<CR>			[count] lines downward, on the first non-blank
+			character |linewise|.

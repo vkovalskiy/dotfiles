@@ -1,6 +1,6 @@
 set noswapfile
 
-set guifont=Andale\ Mono:h16
+set guifont=Andale\ Mono:h14
 set ruler
 set textwidth=80
 set colorcolumn=80
@@ -9,6 +9,8 @@ autocmd vimenter * NERDTree
 
 set guioptions=egmrt
 set cpoptions+=$
+set virtualedit=all
+filetype plugin on
 
 " ----------------------------------------------------------------------------
 "  Text Formatting
@@ -33,6 +35,9 @@ set virtualedit=block      " allow virtual edit in visual block ..
 
 " lead with ,
 let mapleader = ","
+
+" js-beautify
+nmap <leader>b :JSBeautify<cr>
 
 " exit to normal mode with 'jj'
 inoremap jj <ESC>
