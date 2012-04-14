@@ -46,6 +46,15 @@ nmap <leader>b :JSBeautify<cr>
 "Fuzzy Finders Buffers
 nmap <C-b> :FufBuffer<cr>
 
+"Fuzzy Finder's File
+nmap <leader>o :FufBuffer<cr>
+
+"CSSComb
+nmap <leader>c :CSSComb<cr>
+
+"Current file location in path
+cmap <C-l> %:p:h:h/
+
 " exit to normal mode with 'jj'
 inoremap jj <ESC>
 
