@@ -1,5 +1,19 @@
 colorscheme desert
 set anti
+
+set guifont=Andale\ Mono:h14
+set guifont=Andale\ Mono\ 10
+
+" cursor
+hi Cursor guibg=#ffaf00
+hi iCursor guibg=#ffaf00
+hi StatusLine guibg=#ffaf00
+hi CursorLine guibg=grey22
+set guicursor=n-v-c:block-Cursor
+set guicursor+=n-v-c:blinkon0
+
+set cursorline
+
 "set guioptions=egmrt
 
 " Command + t to :CommandT
@@ -7,7 +21,7 @@ if has("gui_macvim")
   macmenu &File.New\ Tab key=<nop>
   map <D-t> :CommandT<CR>
 endif
-
+j
 " Open Command+T in a new tab
 let g:CommandTAcceptSelectionTabMap='<CR>'
 

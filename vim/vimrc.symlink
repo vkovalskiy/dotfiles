@@ -1,7 +1,5 @@
 set noswapfile
 
-set guifont=Andale\ Mono:h14
-set guifont=Andale\ Mono\ 10
 set ruler
 set textwidth=80
 set colorcolumn=80
@@ -11,6 +9,7 @@ autocmd vimenter * NERDTree
 set guioptions=egmrt
 set cpoptions+=$
 set virtualedit=all
+
 filetype plugin on
 filetype indent on
 
