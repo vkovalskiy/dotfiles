@@ -61,7 +61,7 @@ nmap <leader>b :JSBeautify<cr>
 nmap <C-b> :FufBuffer<cr>
 
 "Fuzzy Finder's File
-nmap <leader>o :FufBuffer<cr>
+nmap <leader>o :FufFile<cr>
 
 "CSSComb
 nmap <leader>c :CSSComb<cr>
