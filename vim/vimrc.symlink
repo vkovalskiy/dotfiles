@@ -9,6 +9,8 @@ autocmd vimenter * NERDTree
 set guioptions=egmrt
 set cpoptions+=$
 set virtualedit=all
+set keymap=russian-jcukenwin 
+set iminsert=0
 
 filetype plugin on
 filetype indent on
