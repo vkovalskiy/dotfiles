@@ -73,6 +73,9 @@ cmap <C-l> %:p:h:h/
 " exit to normal mode with 'jj'
 inoremap jj <ESC>
 
+vnoremap <C-INS> "+y<cr>
+nnoremap <S-INS> "+P<cr>
+
 map <F2> :source $MYVIMRC<CR>:echoe "Vimrc Reloaded!!!"<CR>
 
 
@@ -85,12 +88,14 @@ nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
-" nnoremap <Down> gj
-" nnoremap <Up> gk
-" vnoremap <Down> gj
-" vnoremap <Up> gk
-" inoremap <Down> <C-o>gj
-" inoremap <Up> <C-o>gk
+nnoremap <Down> gj
+nnoremap <Up> gk
+vnoremap <Down> gj
+vnoremap <Up> gk
+" not simple movements in order for FuzzyFinder navigation
+" work corrctly
+inoremap <C-Down> <C-o>gj
+inoremap <C-Up> <C-o>gk
 
 " line blocks movements up and down in all modes
 nnoremap <C-j> :m+<CR>==
@@ -101,6 +106,7 @@ vnoremap <C-j> :m'>+<CR>gv=gv
 vnoremap <C-k> :m-2<CR>gv=gv
 
 nnoremap <Tab> <C-W>w
+nnoremap <S-Tab> <C-W>W
 " ----------------------------------------------------------------------------
 "  UI
 " ----------------------------------------------------------------------------

@@ -1,0 +1,4 @@
+/*jslint browser:true, indent:2, nomen:true, node:true, white:true*/
+/*global define*/
+/*globals $, module, test, expect, equals, describe, it, require*/
+/*globals beforeEach, it, afterEach, describe, spyOn*/
