@@ -14,7 +14,21 @@ set virtualedit=all
 filetype plugin on
 filetype indent on
 
+" http://vim.wikia.com/wiki/VimTip1386
+" autocoplete hacks
+set ofu=syntaxcomlete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType cssmnifunc=csscomplete#CompleteCSS
+set completeopt=longest,menuone
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
+  \ '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+
+inoremap <expr> <M-,> pumvisible() ? '<C-n>' :
+  \ '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+
+imap <C-Tab> <C-x><C-o>
 
 " ----------------------------------------------------------------------------
 "  Text Formatting
@@ -57,6 +71,8 @@ cmap <C-l> %:p:h:h/
 
 " exit to normal mode with 'jj'
 inoremap jj <ESC>
+
+map <F2> :source $MYVIMRC<CR>:echoe "Vimrc Reloaded!!!"<CR>
 
 
 " reflow paragraph with Q in normal and visual mode
