@@ -70,8 +70,12 @@ nmap <leader>c :CSSComb<cr>
 "Current file location in path
 cmap <C-l> %:p:h:h/
 
+" Locate current buffer in NERDTree
+map <leader>r :NERDTreeFind<cr> 
+
+
 " exit to normal mode with 'jj'
-inoremap jj <ESC>
+" inoremap jj <ESC>
 
 vnoremap <C-INS> "+y<cr>
 nnoremap <S-INS> "+P<cr>
