@@ -11,6 +11,9 @@ set cpoptions+=$
 set virtualedit=all
 set keymap=russian-jcukenwin 
 set iminsert=0
+set imsearch=0
+inoremap <S-F1> <C-^>
+cnoremap <S-F1> <C-^>
 
 filetype plugin on
 filetype indent on
@@ -66,6 +69,9 @@ nmap <leader>o :FufFile<cr>
 
 "CSSComb
 nmap <leader>c :CSSComb<cr>
+
+" CoffeeLint
+nnoremap <leader>cx :CoffeeLint! <bar> cwindow<cr>
 
 "Current file location in path
 cmap <C-l> %:p:h:h/
