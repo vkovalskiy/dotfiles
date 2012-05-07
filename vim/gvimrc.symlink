@@ -1,8 +1,8 @@
 colorscheme desert
 set anti
 
-set guifont=Andale\ Mono:h14
-set guifont=Andale\ Mono\ 10
+set guifont=Andale\ Mono:h12
+" set guifont=Andale\ Mono\ 10
 
 " cursor
 hi Cursor guibg=#ffaf00
