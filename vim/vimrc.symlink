@@ -2,7 +2,7 @@ set noswapfile
 
 set ruler
 set textwidth=70
-set colorcolumn=70
+set colorcolumn=71
 
 autocmd vimenter * NERDTree
 
