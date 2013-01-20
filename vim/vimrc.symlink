@@ -67,6 +67,9 @@ nmap <C-b> :FufBuffer<cr>
 "Fuzzy Finder's File
 nmap <leader>o :FufFile<cr>
 
+"Fuzzy Finder's Line
+nmap <leader>l :FufLine<cr>
+
 "CSSComb
 nmap <leader>c :CSSComb<cr>
 

@@ -1,4 +1,4 @@
-colorscheme zenburn
+colorscheme autumn
 set anti
 
 set guifont=Andale\ Mono:h13
@@ -8,7 +8,7 @@ set guifont=Andale\ Mono:h13
 hi Cursor guibg=#ffaf00
 hi iCursor guibg=#ffaf00
 hi StatusLine guibg=#ffaf00
-hi CursorLine guibg=grey23
+hi CursorLine guibg=grey99
 set guicursor=n-v-c:block-Cursor
 set guicursor+=n-v-c:blinkon0
 
