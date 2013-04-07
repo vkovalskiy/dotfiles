@@ -16,6 +16,14 @@ inoremap <S-F1> <C-^>
 cnoremap <S-F1> <C-^>
 
 setlocal spell spelllang=ru_yo,en_us
+" set wildmenu
+" set wcm=
+" menu SpellLang.RU_EN  :setlocal spell spelllang=ru,en
+" menu SpellLang.off :setlocal nospell
+" menu SpellLang.RU :setlocal spell spelllang=ru
+" menu SpellLang.EN :setlocal spell spelllang=en
+" map  :emenu SpellLang.
+" map <F4> :emenu SpellLang.
 
 filetype plugin on
 filetype indent on
