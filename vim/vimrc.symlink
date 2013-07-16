@@ -15,7 +15,7 @@ set imsearch=0
 inoremap <S-F1> <C-^>
 cnoremap <S-F1> <C-^>
 
-setlocal spell spelllang=ru_yo,en_us
+" setlocal spell spelllang=ru_yo,en_us
 
 " set wildmenu
 " set wcm=
