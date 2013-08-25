@@ -15,7 +15,7 @@ set imsearch=0
 inoremap <S-F1> <C-^>
 cnoremap <S-F1> <C-^>
 
-setlocal spell spelllang=ru_yo,en_us
+" setlocal spell spelllang=ru_yo,en_us
 
 " set wildmenu
 " set wcm=
@@ -35,8 +35,7 @@ filetype indent on
 " autocoplete hacks
 set ofu=syntaxcomlete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType cssmnifunc=csscomplete#CompleteCSS
-set completeopt=longest,menuone
+autocmd FileType cssmnifunc=csscomplete#CompleteCSS set completeopt=longest,menuone
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
