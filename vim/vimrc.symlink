@@ -36,6 +36,7 @@ filetype indent on
 set ofu=syntaxcomlete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType cssmnifunc=csscomplete#CompleteCSS set completeopt=longest,menuone
+autocmd BufRead *.cson set ft=coffee
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 inoremap <expr> <C-n> pumvisible() ? '<C-n>' :
