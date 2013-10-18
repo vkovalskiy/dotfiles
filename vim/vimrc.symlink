@@ -15,6 +15,9 @@ set imsearch=0
 inoremap <S-F1> <C-^>
 cnoremap <S-F1> <C-^>
 
+" LESS Support
+nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
+
 " setlocal spell spelllang=ru_yo,en_us
 
 " set wildmenu
