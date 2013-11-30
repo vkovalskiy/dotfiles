@@ -1,7 +1,7 @@
 colorscheme autumn
 set anti
 
-set guifont=Andale\ Mono:h15
+set guifont=Andale\ Mono:h14
 " set guifont=Andale\ Mono\ 10
 
 " cursor
