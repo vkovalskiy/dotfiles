@@ -31,3 +31,5 @@
         user = vkovalskiy
 [mergetool]
         keepBackup = false
+[push]
+	default = matching
