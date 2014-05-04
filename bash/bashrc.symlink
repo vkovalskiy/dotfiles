@@ -1,2 +1,13 @@
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+source ~/.git-flow-completion.sh
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+export PS1='\w \033[1;92m\]$(__git_ps1 "(%s)")\[\033[0m\]\$ '
+
+GIT_MERGE_AUTOEDIT=no
+export GIT_MERGE_AUTOEDIT
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
