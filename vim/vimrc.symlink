@@ -77,6 +77,10 @@ let mapleader = ","
 " js-beautify
 nmap <leader>b :JSBeautify<cr>
 
+" bufsurf
+nmap <leader>[ :BufSurfBack<cr>
+nmap <leader>] :BufSurfForward<cr>
+
 " spell check this file
 nmap <leader>s :setlocal spell spelllang=ru_yo,en_us
 
