@@ -44,6 +44,9 @@
 'delimitMate_smart_quotes'	delimitMate.txt	/*'delimitMate_smart_quotes'*
 'loaded_delimitMate'	delimitMate.txt	/*'loaded_delimitMate'*
 'loaded_nerd_tree'	NERD_tree.txt	/*'loaded_nerd_tree'*
+,b	camelcasemotion.txt	/*,b*
+,e	camelcasemotion.txt	/*,e*
+,w	camelcasemotion.txt	/*,w*
 :Ack	ack.txt	/*:Ack*
 :AckAdd	ack.txt	/*:AckAdd*
 :AckFile	ack.txt	/*:AckFile*
@@ -173,6 +176,17 @@ ack	ack.txt	/*ack*
 ack-author	ack.txt	/*ack-author*
 ack-mappings	ack.txt	/*ack-mappings*
 ack.txt	ack.txt	/*ack.txt*
+camelcasemotion-configuration	camelcasemotion.txt	/*camelcasemotion-configuration*
+camelcasemotion-dependencies	camelcasemotion.txt	/*camelcasemotion-dependencies*
+camelcasemotion-description	camelcasemotion.txt	/*camelcasemotion-description*
+camelcasemotion-history	camelcasemotion.txt	/*camelcasemotion-history*
+camelcasemotion-ideas	camelcasemotion.txt	/*camelcasemotion-ideas*
+camelcasemotion-installation	camelcasemotion.txt	/*camelcasemotion-installation*
+camelcasemotion-known-problems	camelcasemotion.txt	/*camelcasemotion-known-problems*
+camelcasemotion-todo	camelcasemotion.txt	/*camelcasemotion-todo*
+camelcasemotion-usage	camelcasemotion.txt	/*camelcasemotion-usage*
+camelcasemotion.txt	camelcasemotion.txt	/*camelcasemotion.txt*
+camelcasemotion.vim	camelcasemotion.txt	/*camelcasemotion.vim*
 coffee-script	coffee-script.txt	/*coffee-script*
 coffee-script-author	coffee-script.txt	/*coffee-script-author*
 coffee-script-commands	coffee-script.txt	/*coffee-script-commands*
