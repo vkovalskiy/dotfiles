@@ -78,8 +78,8 @@ let mapleader = ","
 nmap <leader>b :JSBeautify<cr>
 
 " bufsurf
-nmap <C-[> :BufSurfBack<cr>
-nmap <C-]> :BufSurfForward<cr>
+nmap <C-h> :BufSurfBack<cr>
+nmap <C-l> :BufSurfForward<cr>
 
 " spell check this file
 nmap <leader>s :setlocal spell spelllang=ru_yo,en_us
