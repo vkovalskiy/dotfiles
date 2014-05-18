@@ -74,6 +74,11 @@ set virtualedit=block      " allow virtual edit in visual block ..
 " lead with ,
 let mapleader = ","
 
+nmap <leader>t: :Tabularize /:<cr>
+vmap <leader>t: :Tabularize /:<cr>
+nmap <leader>t= :Tabularize /=<cr>
+vmap <leader>t= :Tabularize /=<cr>
+
 " js-beautify
 nmap <leader>b :JSBeautify<cr>
 
