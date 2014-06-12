@@ -109,6 +109,7 @@ cmap <C-l> %:p:h:h/
 
 " Locate current buffer in NERDTree
 map <leader>r :NERDTreeFind<cr> 
+map <C-n> :NERDTreeToggle<cr> 
 
 
 " exit to normal mode with 'jj'
@@ -148,6 +149,8 @@ vnoremap <C-k> :m-2<CR>gv=gv
 
 nnoremap <Tab> <C-W>w
 nnoremap <S-Tab> <C-W>W
+nnoremap <C-]> <C-W>>
+nnoremap <C-[> <C-W><
 " ----------------------------------------------------------------------------
 "  UI
 " ----------------------------------------------------------------------------
