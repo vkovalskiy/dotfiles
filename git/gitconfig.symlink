@@ -9,7 +9,7 @@
 # task.
 [user]
         name = Vladimir Kovalskiy
-        email = kovalskiy@tncor.com
+        email = kovalskiy@medesk.md
 [alias]
         co = checkout
         b = branch
