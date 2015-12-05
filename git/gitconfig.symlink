@@ -8,8 +8,8 @@
 # install this to the correct location by running the project's main `rake`
 # task.
 [user]
-        name = Vladimir Kovalskiy
-        email = kovalskiy@tncor.com
+	name = Vladimir Kovalskiy
+	email = kovalskiy@medesk.md
 [alias]
         co = checkout
         b = branch
